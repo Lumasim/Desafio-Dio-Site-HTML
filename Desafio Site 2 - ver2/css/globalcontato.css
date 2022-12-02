@@ -1,0 +1,18 @@
+.texto {
+
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+    display: inline;
+
+
+}
+
+#iframe {
+
+    float: right;
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+}

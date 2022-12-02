@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: rgb(93, 159, 212);
+    --cor-secundaria: rgb(222, 228, 235);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6dcac6;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+}
+
+.clinica-img {
+    background-color: white;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgb(93, 159, 212);
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 1rem;
+    display: grid;
+}
+
+.menu li {
+
+    padding: .25rem;
+    list-style: none;
+
+}
+
+.content {
+    
+    padding-left: 3rem;
+    color: black;
+
+
+}
+
+p.iframe {
+    display: inline-block;
+}
+
+.menu ul li {
+    padding: 0.25rem;
+    list-style: none;
+}
+
+.main ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.header-clinica {
+    width: 1000px;
+    background-color: rgb(148, 207, 192);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-items: none;
+    align-items: none;
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    text-align: CENTER;
+    background-color: rgb(93, 159, 212);
+    border-style: solid;
+    border-color: rgb(163, 190, 224);
+    ;
+}
+
+footer {
+    background-color: rgb(163, 190, 224);
+    text-align: left;
+    padding: 1rem;
+}
+
+footer ul {
+    display: -webkit-box;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+#borda {
+    -webkit-box-shadow: 2px 1px 40px 6px rgba(0, 0, 0, 0.65);
+    box-shadow: 2px 1px 40px 6px rgba(0, 0, 0, 0.65);
+
+}
